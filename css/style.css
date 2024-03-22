@@ -1,0 +1,91 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.header {
+    width: 100%; /*忘れがち*/
+    height: 3%;
+}
+
+.header_inner {
+    width: 100%;
+    height: 100%;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_left {
+    margin-left: 15px;
+    font-size: 4vh;
+    color: #00277e;
+}
+
+.header_nav {
+    display: flex;
+    list-style: none;
+}
+
+.header_nav-list {
+    margin-right: 15px;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.header_nav-list a{
+    text-decoration: none;
+    color: #00277e;
+}
+
+.firstview {
+    width: 100%; /*忘れがち*/
+    height: 60%;
+}
+
+.firstview_inner {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    position: relative;
+}
+
+.firstview_ttl {
+    width: 50%;
+    height: 70%;
+    font-weight:500;
+    display: inline-block;
+}
+
+.firstview_ttl h1 {
+    position: absolute;
+    left: 0;
+    top: 61%;
+    font-size: 6vh;
+    font-weight: 500;
+}
+
+.firstview_img {
+    width: 50%;
+    height: 85%;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    z-index: 5;
+}
+
+.firstview_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.firstview_colorbox {
+    background-color: #00277e;
+    width: 70%;
+    height: 30%;
+    position: absolute;
+    left: 0;
+    top: 70%;
+    z-index: 0;
+}
